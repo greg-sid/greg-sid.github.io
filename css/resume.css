@@ -1,0 +1,364 @@
+/*!
+ * Start Bootstrap - Resume v5.0.8 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+
+body {
+  font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  padding-top: 50px;
+  color: #6b737b;
+  
+  
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 17rem;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-weight: 600;
+  text-transform: uppercase;
+  color:  #004d4d;
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 5.5rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+.text-about-text {
+  font-size: 1.12rem;
+  font-weight: 400;
+  
+}
+
+#country_select {
+	padding: 0.8rem;
+	background-color: #193366;
+	color: #fff;
+	border: 3px solid #fff;
+	border-radius: 2rem;
+	cursor: pointer;
+	margin-top:1rem;
+	
+}
+
+#country_select:hover {
+	background-color: #24478f;
+}
+
+.subheading {
+  
+  font-weight: 500;
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 1.5rem;
+  
+}
+
+.fa {
+	font-size: 1.5rem;
+	color:black;
+	
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.big_img {
+	margin-left:-15px;
+	
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+  margin-top: 1rem;
+
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 12px;
+  margin-top: -42px;
+  
+  font-size: 0.9rem;
+  border-radius: 0 13px 13px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  margin-left: -15px;
+  
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 30px;
+  border-radius: 13px 0 0 13px;
+  
+ 
+  
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #4CAF50;
+  font-size: 0.95rem;
+  font-weight: bold;
+  
+ 
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 0px 0px;
+  position: absolute;
+  top: 0;
+  
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 4px 10px;
+  color: white;
+  margin-left:-15px;
+  width:100%;
+  font-size: 1rem;
+}
+
+.row {
+	width: 103.8%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+  
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.06%;
+  border: 5px solid #222;
+  
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+.btn {
+	border: 3px solid black;
+	border-radius: 10px;
+}
+
+.btn:hover {
+	background-color: #1a75ff;
+}
+#envelope {
+	font-size: 1.5rem;
+	color:black;
+}
+
+.pub {
+	line-height: 1.8rem;
+}
+
+.social-icons {
+	margin-top: 2.5rem;
+}
+.social-icons a {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #193366;
+  color: #fff !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin-right: 1rem;
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+
+.social-icons a:hover {
+  background-color: #24478f;
+}
+
+.dev-icons {
+  font-size: 5rem;
+}
+
+.dev-icons .list-inline-item i:hover {
+  color: #004d4d;
+}
+
+#html5:hover .overlay, #css3:hover .overlay, #js:hover .overlay, #php:hover .overlay, #sql:hover .overlay, #wordpress:hover .overlay, #java:hover .overlay, #python:hover .overlay {
+	opacity:1;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: -1; 
+  background: rgb(0, 0, 0);
+  background: #004d4d; /* Black see-through */
+  color: #f1f1f1; 
+  width: 10rem;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 18px;
+  padding: 6px;
+  text-align: left;
+}
+
+
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+}
+
+#sideNav .navbar-toggler:focus {
+  outline-color: #d48a6e;
+}
+
+@media (min-width: 992px) {
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+  }
+  #sideNav .navbar-brand {
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem;
+	
+  }
+  #sideNav .navbar-brand .img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  }
+  #sideNav .navbar-collapse {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+  }
+  #sideNav .navbar-collapse .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item {
+    display: block;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block;
+  }
+
+}
+
+section.resume-section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  max-width: 75rem;
+}
+
+section.resume-section .resume-item .resume-date {
+  min-width: none;
+}
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
+  }
+  section.resume-section .resume-item .resume-date {
+    min-width: 18rem;
+  }
+}
+
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+
+.bg-primary {
+  background-color: #193366 !important;
+}
+
+.text-primary {
+  color: #193366 !important;
+}
+
+a {
+  color: #193366;
+}
+
+a:hover, a:focus, a:active {
+  color: #824027;
+}
